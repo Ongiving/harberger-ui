@@ -9,8 +9,8 @@ import ReactDOM from "react-dom";
 
 ReactDOM.render(
   <WildcardsProvider
-    stewardContractAddress="0x4bE0Eab8f41c8109AA134509086Cbcb18b10C0fB"
-    graphEndpoint="api.thegraph.com/subgraphs/name/wildcards-world/harberger-sample-graph"
+    stewardContractAddress="0xa6CB4724b8F4ED7B77a2FF4D779F44780e9c57C3"
+    graphEndpoint="api.thegraph.com/subgraphs/name/sturench/mtharberger"
   >
     <UsdPriceProvider>
       <App />
